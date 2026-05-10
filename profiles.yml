@@ -1,0 +1,13 @@
+tradeflow_engine:
+  outputs:
+    dev:
+      account: JUBDLUO-BM55669
+      database: dbt
+      password: Sandeshpranjali@178
+      role: ACCOUNTADMIN
+      schema: public
+      threads: 4
+      type: snowflake
+      user: PRANJALINAGARKAR
+      warehouse: COMPUTE_WH
+  target: dev
