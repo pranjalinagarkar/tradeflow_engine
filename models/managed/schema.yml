@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: managed_layer
+    database: dbt           #database name
+    schema: raw       # Your actual schema name
+    tables:
+      - name: trade_load
+        description: "Raw trades data ingested via Snowpipe from S3"
