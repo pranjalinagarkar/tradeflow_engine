@@ -7,3 +7,6 @@ sources:
     tables:
       - name: trade_load
         description: "Raw trades data ingested via Snowpipe from S3"
+        
+      - name: market_price_load
+        description: "Raw price data ingested via Snowpipe from S3"
